@@ -1,53 +1,41 @@
 from ReceiveFeatures import ReceiveFeatures
 from database import Database
 
-import time
-import argparse
-
-def parse_args():
-    parser = argparse.ArgumentParser()
-    parser.add_argument('--mode', type=str, choices=['save', 'comp'], default='save')
-    return parser.parse_args()
-
-def main(args):
+def main():
 
     db = Database()
 
-    if(args.mode == 'comp'):
-        receiver = ReceiveFeatures(topic="tomass/compare_features")
+    save_features_receiver = ReceiveFeatures(topic="tomass/save_features")
+    comp_features_receiver = ReceiveFeatures(topic="tomass/compare_features")
 
-        while True:
-            comp_vectors = receiver.get_pending_vectors()
 
-            for entry in comp_vectors:
+    while True:
 
-                id = entry["track_id"]
-                vector = entry["features"]
+        save_vectors = save_features_receiver.get_pending_vectors()
 
-                print(id, " found as: ", db.query(vector)[0])
-                
-            #time.sleep(0.01)
+        for entry in save_vectors:
+
+            id = entry["track_id"]
+            vector = entry["features"]
+
+            db.insert(id, vector)
+
         
-    else:
-        receiver = ReceiveFeatures(topic="tomass/save_features")
+        comp_vectors = comp_features_receiver.get_pending_vectors()
 
-        while True:
-            new_vectors = receiver.get_pending_vectors()
+        for entry in comp_vectors:
 
-            for entry in new_vectors:
+            id = entry["track_id"]
+            vector = entry["features"]
 
-                id = entry["track_id"]
-                vector = entry["features"]
+            results = db.query(vector)
 
-                db.insert(id, vector)
-                
-            #time.sleep(0.01)
-
-    
-
+            if results:
+                print(f"{id} found as: {results[0]}")
+            else:
+                print(f"{id} not found in database")
 
 
 
 if __name__ == "__main__":
-    args = parse_args()
-    main(args)
+    main()

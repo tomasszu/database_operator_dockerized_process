@@ -37,6 +37,12 @@ class Opensearch_db:
             print("Not connected to OpenSearch.")
             return
         
+        # --- Sanitize vector ---
+        if feature_vector is None:
+            print(f"[WARN] Skipping insert for vehicle {vehicle_id}: feature_vector is None")
+            return        
+
+        
         document = {
             "vehicle_id": vehicle_id,  # Store the actual vehicle ID as a field
             "feature_vector": feature_vector#,
@@ -50,7 +56,7 @@ class Opensearch_db:
             print(f"Error inserting document {vehicle_id}: {e}")
 
 
-    def query_vector(self, query_vector, k=5):
+    def query_vector(self, query_vector, k=5, threshold=0.6):
         """
         Performs a k-NN search on the stored vectors using cosine similarity.
         """
@@ -73,7 +79,12 @@ class Opensearch_db:
         try:
             response = self.client.search(index=self.index_name, body=query)
             hits = response.get("hits", {}).get("hits", [])
-            return [(hit["_source"]["vehicle_id"], hit["_score"]) for hit in hits]  # Return vehicle_id instead of doc_id
+
+            # Filter by threshold
+            filtered = [(hit["_source"]["vehicle_id"], hit["_score"]) 
+                        for hit in hits if hit["_score"] > threshold]
+
+            return filtered if filtered else None
         except Exception as e:
             print(f"Error querying vector: {e}")
             return []
