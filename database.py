@@ -13,3 +13,6 @@ class Database:
     def query(self, vector):
 
         return self.db.query_vector(vector)
+    
+    def delete_old(self, max_age_seconds=60):
+        self.db.delete_old(max_age_seconds=max_age_seconds)

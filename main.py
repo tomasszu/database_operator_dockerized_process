@@ -1,5 +1,6 @@
 from ReceiveFeatures import ReceiveFeatures
 from database import Database
+import time
 
 def main():
 
@@ -8,6 +9,8 @@ def main():
     save_features_receiver = ReceiveFeatures(topic="tomass/save_features")
     comp_features_receiver = ReceiveFeatures(topic="tomass/compare_features")
 
+    cleanup_interval = 60          # run cleanup every 60 seconds
+    last_cleanup = time.time()     # record last cleanup time
 
     while True:
 
@@ -35,7 +38,11 @@ def main():
             else:
                 print(f"{id} not found in database")
 
-
+        # periodic cleanup based on wall clock time
+        now = time.time()
+        if now - last_cleanup >= cleanup_interval:
+            db.delete_old(max_age_seconds=cleanup_interval)  # delete docs older than cleanup_interval (for example 60 sec)
+            last_cleanup = now
 
 if __name__ == "__main__":
     main()

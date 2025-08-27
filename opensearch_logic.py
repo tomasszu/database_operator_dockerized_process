@@ -1,4 +1,5 @@
 from opensearchpy import OpenSearch
+import time
 
 class Opensearch_db:
     def __init__(self, host, port, auth, index_name="vehicle_vectors"):
@@ -45,16 +46,41 @@ class Opensearch_db:
         
         document = {
             "vehicle_id": vehicle_id,  # Store the actual vehicle ID as a field
-            "feature_vector": feature_vector#,
+            "feature_vector": feature_vector,
             #"times_summed": times_summed
+            "timestamp": int(time.time())  # <-- add UNIX epoch timestamp
         }
 
         try:
             response = self.client.index(index=self.index_name, body=document, refresh=True)
-            print(f"Inserted document {vehicle_id}: {response}")
+            print(f"Inserted document, vehicle id {vehicle_id}: {response}")
         except Exception as e:
             print(f"Error inserting document {vehicle_id}: {e}")
 
+        
+    def delete_old(self, max_age_seconds=60):
+        """
+        Deletes documents older than `max_age_seconds`.
+        """
+        if self.client is None:
+            return
+        
+        cutoff = int(time.time()) - max_age_seconds
+        query = {
+            "query": {
+                "range": {
+                    "timestamp": {"lt": cutoff}
+                }
+            }
+        }
+
+        try:
+            resp = self.client.delete_by_query(index=self.index_name, body=query, refresh=True)
+            deleted = resp.get("deleted", 0)
+            if deleted > 0:
+                print(f"Deleted {deleted} old documents.")
+        except Exception as e:
+            print(f"Error deleting old docs: {e}")
 
     def query_vector(self, query_vector, k=5, threshold=0.6):
         """
