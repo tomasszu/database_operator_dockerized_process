@@ -28,9 +28,9 @@ class Opensearch_db:
         
         except Exception as e:
             # Catch any other exceptions
-            print(f"An unexpected error occurred: {e}")
+            print(f"An unexpected error occurred: {e}\n")
 
-    def insert(self, vehicle_id, feature_vector, times_summed=0):
+    def insert(self, vehicle_id, feature_vector, cam_id, times_summed=0):
         """
         Inserts a vector document into the OpenSearch index.
         """
@@ -40,22 +40,22 @@ class Opensearch_db:
         
         # --- Sanitize vector ---
         if feature_vector is None:
-            print(f"[WARN] Skipping insert for vehicle {vehicle_id}: feature_vector is None")
+            print(f"[WARN] Skipping insert for vehicle {vehicle_id}: feature_vector is None\n")
             return        
 
         
         document = {
             "vehicle_id": vehicle_id,  # Store the actual vehicle ID as a field
             "feature_vector": feature_vector,
-            #"times_summed": times_summed
+            "cam_id": cam_id,
             "timestamp": int(time.time())  # <-- add UNIX epoch timestamp
         }
 
         try:
             response = self.client.index(index=self.index_name, body=document, refresh=True)
-            print(f"Inserted document, vehicle id {vehicle_id}: {response}")
+            print(f"Inserted document, vehicle id {vehicle_id}: {response}\n")
         except Exception as e:
-            print(f"Error inserting document {vehicle_id}: {e}")
+            print(f"Error inserting document {vehicle_id}: {e}\n")
 
         
     def delete_old(self, max_age_seconds=60):
@@ -78,14 +78,15 @@ class Opensearch_db:
             resp = self.client.delete_by_query(index=self.index_name, body=query, refresh=True)
             deleted = resp.get("deleted", 0)
             if deleted > 0:
-                print(f"Deleted {deleted} old documents.")
+                print(f"Deleted {deleted} old documents.\n")
         except Exception as e:
-            print(f"Error deleting old docs: {e}")
+            print(f"Error deleting old docs: {e}\n")
 
-    def query_vector(self, query_vector, k=5, threshold=0.6):
+    def query_vector(self, query_vector, cam_id, k=10, threshold=0.6):
         """
         Performs a k-NN search on the stored vectors using cosine similarity.
         """
+        same_camera_penalty = 0.3  # penalty for same camera queries
         if self.client is None:
             print("Not connected to OpenSearch.")
             return
@@ -108,10 +109,10 @@ class Opensearch_db:
 
             # Filter by threshold
             filtered = [(hit["_source"]["vehicle_id"], hit["_score"]) 
-                        for hit in hits if hit["_score"] > threshold]
+                        for hit in hits if ((hit["_source"]["cam_id"] == cam_id and hit["_score"] > threshold + same_camera_penalty) or (hit["_source"]["cam_id"] != cam_id and hit["_score"] > threshold))]
 
             return filtered if filtered else None
         except Exception as e:
-            print(f"Error querying vector: {e}")
+            print(f"Error querying vector: {e}\n")
             return []
 

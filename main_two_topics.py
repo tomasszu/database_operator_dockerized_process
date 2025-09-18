@@ -6,38 +6,37 @@ def main():
 
     db = Database()
 
-    comp_features_receiver = ReceiveFeatures(topic="tomass/features")
+    save_features_receiver = ReceiveFeatures(topic="tomass/save_features")
+    comp_features_receiver = ReceiveFeatures(topic="tomass/compare_features")
 
     cleanup_interval = 60          # run cleanup every 60 seconds
     last_cleanup = time.time()     # record last cleanup time
 
     while True:
 
-        # save_vectors = save_features_receiver.get_pending_vectors()
+        save_vectors = save_features_receiver.get_pending_vectors()
 
-        # for entry in save_vectors:
-
-        #     id = entry["track_id"]
-        #     vector = entry["features"]
-
-        #     db.insert(id, vector)
-
-        
-        vectors = comp_features_receiver.get_pending_vectors()
-
-        for entry in vectors:
+        for entry in save_vectors:
 
             id = entry["track_id"]
             vector = entry["features"]
-            cam_id = entry["cam_id"]
-            image = entry["image"]
 
-            results = db.query(id, vector, cam_id)
+            db.insert(id, vector)
 
-            # if results:
-            #     print(f"{id} found as: {results[0]}")
-            # else:
-            #     print(f"{id} not found in database")
+        
+        comp_vectors = comp_features_receiver.get_pending_vectors()
+
+        for entry in comp_vectors:
+
+            id = entry["track_id"]
+            vector = entry["features"]
+
+            results = db.query(vector)
+
+            if results:
+                print(f"{id} found as: {results[0]}")
+            else:
+                print(f"{id} not found in database")
 
         # periodic cleanup based on wall clock time
         now = time.time()

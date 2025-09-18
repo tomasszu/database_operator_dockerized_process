@@ -4,6 +4,9 @@ feature_env/
 videos/*.avi
 videos/*.mp4
 
+.vscode/
+db_env/
+
 *.engine
 *.onnx
 *.pth
