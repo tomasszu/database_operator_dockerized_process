@@ -25,6 +25,7 @@ class Opensearch_db:
             # Handle connection errors, such as network issues or OpenSearch being down
             print(f"Error: Unable to connect to OpenSearch at {self.host}:{self.port}.")
             print(f"Exception: {e}")
+            quit(1)
         
         except Exception as e:
             # Catch any other exceptions
@@ -86,7 +87,7 @@ class Opensearch_db:
         """
         Performs a k-NN search on the stored vectors using cosine similarity.
         """
-        same_camera_penalty = 0.3  # penalty for same camera queries
+        same_camera_penalty = 0.35  # penalty for same camera queries
         if self.client is None:
             print("Not connected to OpenSearch.")
             return

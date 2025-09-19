@@ -48,7 +48,6 @@ class ReceiveFeatures:
                 "cam_id": payload["cam_id"],
                 "features": payload["features"]
             })
-            self.queue.append(payload)
 
             print(f"[MQTT] Received {payload['track_id']} \n")
             return payload

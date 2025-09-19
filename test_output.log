@@ -1,0 +1,764 @@
+[MQTT] Received 1 
+41 not found in local cache, querying database
+
+
+[MQTT] Received 2 
+
+1 from 4 not found in database
+
+Inserting as new id: 41
+
+Inserted document, vehicle id 41: {'_index': 'vehicle_vectors', '_id': 'FYd8YpkB6y9MJBiPVIFl', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 0, '_primary_term': 1}
+
+42 not found in local cache, querying database
+
+2 from 4 not found in database
+
+Inserting as new id: 42
+
+Inserted document, vehicle id 42: {'_index': 'vehicle_vectors', '_id': 'KId8YpkB6y9MJBiPVIGU', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 1, '_primary_term': 1}
+
+[MQTT] Received 4 
+44 not found in local cache, querying database
+
+
+4 from 4 not found in database
+
+Inserting as new id: 44
+
+Inserted document, vehicle id 44: {'_index': 'vehicle_vectors', '_id': 'O4d8YpkB6y9MJBiPV4F-', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 2, '_primary_term': 1}
+
+[MQTT] Received 6 
+46 not found in local cache, querying database
+
+
+6 from 4 not found in database
+
+Inserting as new id: 46
+
+Inserted document, vehicle id 46: {'_index': 'vehicle_vectors', '_id': 'Tod8YpkB6y9MJBiPWIFv', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 3, '_primary_term': 1}
+
+[MQTT] Received 8 
+48 not found in local cache, querying database
+
+
+48 from 4 found in database as: (46, 0.9739126)
+
+Inserted document, vehicle id 46: {'_index': 'vehicle_vectors', '_id': 'YYd8YpkB6y9MJBiPW4FK', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 4, '_primary_term': 1}
+
+[MQTT] Received 4 
+44 found in local cache
+
+
+Inserted document, vehicle id 44: {'_index': 'vehicle_vectors', '_id': 'dId8YpkB6y9MJBiPYYHm', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 5, '_primary_term': 1}
+
+[MQTT] Received 11 
+411 not found in local cache, querying database
+
+
+11 from 4 not found in database
+
+Inserting as new id: 411
+
+Inserted document, vehicle id 411: {'_index': 'vehicle_vectors', '_id': 'h4d8YpkB6y9MJBiPY4HC', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 6, '_primary_term': 1}
+
+[MQTT] Received 4 
+44 found in local cache
+
+
+Inserted document, vehicle id 44: {'_index': 'vehicle_vectors', '_id': 'mod8YpkB6y9MJBiPcIHM', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 7, '_primary_term': 1}
+
+[MQTT] Received 11 
+411 found in local cache
+
+
+Inserted document, vehicle id 411: {'_index': 'vehicle_vectors', '_id': 'rYd8YpkB6y9MJBiPcYHC', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 8, '_primary_term': 1}
+
+[MQTT] Received 4 
+44 found in local cache
+
+
+Inserted document, vehicle id 44: {'_index': 'vehicle_vectors', '_id': 'wId8YpkB6y9MJBiPd4Fo', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 9, '_primary_term': 1}
+
+[MQTT] Received 4 
+44 found in local cache
+
+
+Inserted document, vehicle id 44: {'_index': 'vehicle_vectors', '_id': '04d8YpkB6y9MJBiPeoFW', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 10, '_primary_term': 1}
+
+[MQTT] Received 4 
+44 found in local cache
+
+
+Inserted document, vehicle id 44: {'_index': 'vehicle_vectors', '_id': '-Id8YpkB6y9MJBiPe4E6', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 11, '_primary_term': 1}
+
+[MQTT] Received 4 
+44 found in local cache
+
+
+Inserted document, vehicle id 44: {'_index': 'vehicle_vectors', '_id': 'C4d8YpkB6y9MJBiPfYIe', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 12, '_primary_term': 1}
+
+[MQTT] Received 8 
+48 not found in local cache, querying database
+
+
+8 from 4 not found in database
+
+Inserting as new id: 48
+
+Inserted document, vehicle id 48: {'_index': 'vehicle_vectors', '_id': 'Hod8YpkB6y9MJBiPf4Ic', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 13, '_primary_term': 1}
+
+[MQTT] Received 4 
+44 found in local cache
+
+
+Inserted document, vehicle id 44: {'_index': 'vehicle_vectors', '_id': 'MYd8YpkB6y9MJBiPgIIL', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 14, '_primary_term': 1}
+
+[MQTT] Received 13 
+413 not found in local cache, querying database
+
+
+[MQTT] Received 11 
+
+13 from 4 not found in database
+
+Inserting as new id: 413
+
+Inserted document, vehicle id 413: {'_index': 'vehicle_vectors', '_id': 'RId8YpkB6y9MJBiPgoLs', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 15, '_primary_term': 1}
+
+411 found in local cache
+
+Inserted document, vehicle id 411: {'_index': 'vehicle_vectors', '_id': 'V4d8YpkB6y9MJBiPgoL7', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 16, '_primary_term': 1}
+
+[MQTT] Received 1 
+41 found in local cache
+
+
+Inserted document, vehicle id 41: {'_index': 'vehicle_vectors', '_id': 'aod8YpkB6y9MJBiPiYKE', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 17, '_primary_term': 1}
+
+[MQTT] Received 8 
+48 found in local cache
+
+
+Inserted document, vehicle id 48: {'_index': 'vehicle_vectors', '_id': 'fYd8YpkB6y9MJBiPjIJX', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 18, '_primary_term': 1}
+
+[MQTT] Received 6 
+46 found in local cache
+
+
+Inserted document, vehicle id 46: {'_index': 'vehicle_vectors', '_id': 'kId8YpkB6y9MJBiPkYIT', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 19, '_primary_term': 1}
+
+[MQTT] Received 8 
+48 found in local cache
+
+
+Inserted document, vehicle id 48: {'_index': 'vehicle_vectors', '_id': 'o4d8YpkB6y9MJBiPkoIN', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 20, '_primary_term': 1}
+
+[MQTT] Received 13 
+413 found in local cache
+
+
+Inserted document, vehicle id 413: {'_index': 'vehicle_vectors', '_id': 'yId8YpkB6y9MJBiPlIL0', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 21, '_primary_term': 1}
+
+[MQTT] Received 8 
+48 found in local cache
+
+
+Inserted document, vehicle id 48: {'_index': 'vehicle_vectors', '_id': '24d8YpkB6y9MJBiPlYLz', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 22, '_primary_term': 1}
+
+[MQTT] Received 8 
+48 found in local cache
+
+
+Inserted document, vehicle id 48: {'_index': 'vehicle_vectors', '_id': '7od8YpkB6y9MJBiPmILX', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 23, '_primary_term': 1}
+
+[MQTT] Received 8 
+48 found in local cache
+
+
+Inserted document, vehicle id 48: {'_index': 'vehicle_vectors', '_id': 'AYd8YpkB6y9MJBiPmYPX', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 24, '_primary_term': 1}
+
+[MQTT] Received 1 
+41 found in local cache
+
+
+Inserted document, vehicle id 41: {'_index': 'vehicle_vectors', '_id': 'FId8YpkB6y9MJBiPmoPy', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 25, '_primary_term': 1}
+
+[MQTT] Received 8 
+48 found in local cache
+
+
+Inserted document, vehicle id 48: {'_index': 'vehicle_vectors', '_id': 'J4d8YpkB6y9MJBiPm4PX', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 26, '_primary_term': 1}
+
+[MQTT] Received 6 
+46 found in local cache
+
+
+Inserted document, vehicle id 46: {'_index': 'vehicle_vectors', '_id': 'Ood8YpkB6y9MJBiPnYPY', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 27, '_primary_term': 1}
+
+[MQTT] Received 1 
+41 found in local cache
+
+
+Inserted document, vehicle id 41: {'_index': 'vehicle_vectors', '_id': 'TYd8YpkB6y9MJBiPnoPJ', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 28, '_primary_term': 1}
+
+[MQTT] Received 15 
+415 not found in local cache, querying database
+
+
+15 from 4 not found in database
+
+Inserting as new id: 415
+
+Inserted document, vehicle id 415: {'_index': 'vehicle_vectors', '_id': 'YId8YpkB6y9MJBiPooO5', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 29, '_primary_term': 1}
+
+[MQTT] Received 6 
+46 found in local cache
+
+
+[MQTT] Received 1 
+
+Inserted document, vehicle id 46: {'_index': 'vehicle_vectors', '_id': 'c4d8YpkB6y9MJBiPo4Om', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 30, '_primary_term': 1}
+
+41 found in local cache
+
+Inserted document, vehicle id 41: {'_index': 'vehicle_vectors', '_id': 'mId8YpkB6y9MJBiPo4PG', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 31, '_primary_term': 1}
+
+[MQTT] Received 6 
+46 found in local cache
+
+
+Inserted document, vehicle id 46: {'_index': 'vehicle_vectors', '_id': 'q4d8YpkB6y9MJBiPp4OH', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 32, '_primary_term': 1}
+
+[MQTT] Received 6 
+46 found in local cache
+
+
+Inserted document, vehicle id 46: {'_index': 'vehicle_vectors', '_id': 'vod8YpkB6y9MJBiPqYOF', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 33, '_primary_term': 1}
+
+[MQTT] Received 1 
+41 found in local cache
+
+
+Inserted document, vehicle id 41: {'_index': 'vehicle_vectors', '_id': '0Yd8YpkB6y9MJBiPqoOa', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 34, '_primary_term': 1}
+
+[MQTT] Received 6 
+46 found in local cache
+
+
+Inserted document, vehicle id 46: {'_index': 'vehicle_vectors', '_id': '5Id8YpkB6y9MJBiPrIN4', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 35, '_primary_term': 1}
+
+[MQTT] Received 6 
+46 found in local cache
+
+
+Inserted document, vehicle id 46: {'_index': 'vehicle_vectors', '_id': '94d8YpkB6y9MJBiProNo', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 36, '_primary_term': 1}
+
+[MQTT] Received 15 
+415 found in local cache
+
+
+Inserted document, vehicle id 415: {'_index': 'vehicle_vectors', '_id': 'Cod8YpkB6y9MJBiPr4Rk', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 37, '_primary_term': 1}
+
+[MQTT] Received 15 
+415 found in local cache
+
+
+Inserted document, vehicle id 415: {'_index': 'vehicle_vectors', '_id': 'HYd8YpkB6y9MJBiPtoQz', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 38, '_primary_term': 1}
+
+[MQTT] Received 15 
+415 found in local cache
+
+
+Inserted document, vehicle id 415: {'_index': 'vehicle_vectors', '_id': 'MId8YpkB6y9MJBiPuoQA', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 39, '_primary_term': 1}
+
+[MQTT] Received 15 
+415 found in local cache
+
+
+Inserted document, vehicle id 415: {'_index': 'vehicle_vectors', '_id': 'Q4d8YpkB6y9MJBiPvITc', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 40, '_primary_term': 1}
+
+[MQTT] Received 1 
+41 found in local cache
+
+
+[MQTT] Received 15 
+
+Inserted document, vehicle id 41: {'_index': 'vehicle_vectors', '_id': 'aId8YpkB6y9MJBiPvYTP', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 41, '_primary_term': 1}
+
+415 found in local cache
+
+Inserted document, vehicle id 415: {'_index': 'vehicle_vectors', '_id': 'e4d8YpkB6y9MJBiPvYTe', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 42, '_primary_term': 1}
+
+[MQTT] Received 19 
+419 not found in local cache, querying database
+
+
+19 from 4 not found in database
+
+Inserting as new id: 419
+
+Inserted document, vehicle id 419: {'_index': 'vehicle_vectors', '_id': 'jod8YpkB6y9MJBiPvoTL', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 43, '_primary_term': 1}
+
+[MQTT] Received 15 
+415 found in local cache
+
+
+Inserted document, vehicle id 415: {'_index': 'vehicle_vectors', '_id': 'oYd8YpkB6y9MJBiPv4Su', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 44, '_primary_term': 1}
+
+[MQTT] Received 1 
+41 found in local cache
+
+
+Inserted document, vehicle id 41: {'_index': 'vehicle_vectors', '_id': 'tId8YpkB6y9MJBiPxIRk', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 45, '_primary_term': 1}
+
+[MQTT] Received 19 
+419 found in local cache
+
+
+Inserted document, vehicle id 419: {'_index': 'vehicle_vectors', '_id': 'x4d8YpkB6y9MJBiPyIQl', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 46, '_primary_term': 1}
+
+[MQTT] Received 19 
+419 found in local cache
+
+
+[MQTT] Received 20 
+
+Inserted document, vehicle id 419: {'_index': 'vehicle_vectors', '_id': '2od8YpkB6y9MJBiPzYTE', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 47, '_primary_term': 1}
+
+420 not found in local cache, querying database
+
+20 from 4 not found in database
+
+Inserting as new id: 420
+
+Inserted document, vehicle id 420: {'_index': 'vehicle_vectors', '_id': '7Yd8YpkB6y9MJBiPzYTV', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 48, '_primary_term': 1}
+
+[MQTT] Received 19 
+419 found in local cache
+
+
+Inserted document, vehicle id 419: {'_index': 'vehicle_vectors', '_id': 'AId8YpkB6y9MJBiP0IV_', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 49, '_primary_term': 1}
+
+[MQTT] Received 19 
+419 found in local cache
+
+
+[MQTT] Received 21 
+
+Inserted document, vehicle id 419: {'_index': 'vehicle_vectors', '_id': 'E4d8YpkB6y9MJBiP0YVy', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 50, '_primary_term': 1}
+
+421 not found in local cache, querying database
+
+21 from 4 not found in database
+
+Inserting as new id: 421
+
+Inserted document, vehicle id 421: {'_index': 'vehicle_vectors', '_id': 'OId8YpkB6y9MJBiP0YWN', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 51, '_primary_term': 1}
+
+[MQTT] Received 19 
+419 found in local cache
+
+
+Inserted document, vehicle id 419: {'_index': 'vehicle_vectors', '_id': 'S4d8YpkB6y9MJBiP0oV0', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 52, '_primary_term': 1}
+
+[MQTT] Received 21 
+421 found in local cache
+
+
+Inserted document, vehicle id 421: {'_index': 'vehicle_vectors', '_id': 'Xod8YpkB6y9MJBiP04VV', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 53, '_primary_term': 1}
+
+[MQTT] Received 19 
+419 found in local cache
+
+
+Inserted document, vehicle id 419: {'_index': 'vehicle_vectors', '_id': 'cYd8YpkB6y9MJBiP1IVY', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 54, '_primary_term': 1}
+
+[MQTT] Received 19 
+419 found in local cache
+
+
+Inserted document, vehicle id 419: {'_index': 'vehicle_vectors', '_id': 'hId8YpkB6y9MJBiP1YU6', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 55, '_primary_term': 1}
+
+[MQTT] Received 20 
+420 found in local cache
+
+
+Inserted document, vehicle id 420: {'_index': 'vehicle_vectors', '_id': 'l4d8YpkB6y9MJBiP1oUz', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 56, '_primary_term': 1}
+
+[MQTT] Received 21 
+421 found in local cache
+
+
+Inserted document, vehicle id 421: {'_index': 'vehicle_vectors', '_id': 'qod8YpkB6y9MJBiP2YX1', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 57, '_primary_term': 1}
+
+[MQTT] Received 20 
+420 found in local cache
+
+
+[MQTT] Received 21 
+
+Inserted document, vehicle id 420: {'_index': 'vehicle_vectors', '_id': 'vYd8YpkB6y9MJBiP3IWr', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 58, '_primary_term': 1}
+
+421 found in local cache
+
+Inserted document, vehicle id 421: {'_index': 'vehicle_vectors', '_id': '0Id8YpkB6y9MJBiP3IW7', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 59, '_primary_term': 1}
+
+[MQTT] Received 21 
+421 found in local cache
+
+
+Inserted document, vehicle id 421: {'_index': 'vehicle_vectors', '_id': '44d8YpkB6y9MJBiP4oU_', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 60, '_primary_term': 1}
+
+[MQTT] Received 22 
+422 not found in local cache, querying database
+
+
+22 from 4 not found in database
+
+Inserting as new id: 422
+
+Inserted document, vehicle id 422: {'_index': 'vehicle_vectors', '_id': 'CId8YpkB6y9MJBiP6oaa', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 61, '_primary_term': 1}
+
+[MQTT] Received 23 
+423 not found in local cache, querying database
+
+
+23 from 4 not found in database
+
+Inserting as new id: 423
+
+Inserted document, vehicle id 423: {'_index': 'vehicle_vectors', '_id': 'G4d8YpkB6y9MJBiP7oZZ', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 62, '_primary_term': 1}
+
+[MQTT] Received 23 
+423 found in local cache
+
+
+Inserted document, vehicle id 423: {'_index': 'vehicle_vectors', '_id': 'Lod8YpkB6y9MJBiP9IbP', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 63, '_primary_term': 1}
+
+[MQTT] Received 23 
+423 found in local cache
+
+
+Inserted document, vehicle id 423: {'_index': 'vehicle_vectors', '_id': 'QYd8YpkB6y9MJBiP-oZb', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 64, '_primary_term': 1}
+
+[MQTT] Received 26 
+426 not found in local cache, querying database
+
+
+26 from 4 not found in database
+
+Inserting as new id: 426
+
+Inserted document, vehicle id 426: {'_index': 'vehicle_vectors', '_id': 'VId9YpkB6y9MJBiPB4Zn', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 65, '_primary_term': 1}
+
+[MQTT] Received 26 
+426 found in local cache
+
+
+Inserted document, vehicle id 426: {'_index': 'vehicle_vectors', '_id': 'Z4d9YpkB6y9MJBiPCIY_', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 66, '_primary_term': 1}
+
+[MQTT] Received 26 
+426 found in local cache
+
+
+Inserted document, vehicle id 426: {'_index': 'vehicle_vectors', '_id': 'eod9YpkB6y9MJBiPC4YN', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 67, '_primary_term': 1}
+
+[MQTT] Received 26 
+426 found in local cache
+
+
+Inserted document, vehicle id 426: {'_index': 'vehicle_vectors', '_id': 'jYd9YpkB6y9MJBiPDIbh', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 68, '_primary_term': 1}
+
+[MQTT] Received 26 
+426 found in local cache
+
+
+Inserted document, vehicle id 426: {'_index': 'vehicle_vectors', '_id': 'oId9YpkB6y9MJBiPD4a3', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 69, '_primary_term': 1}
+
+[MQTT] Received 27 
+427 not found in local cache, querying database
+
+
+27 from 4 not found in database
+
+Inserting as new id: 427
+
+Inserted document, vehicle id 427: {'_index': 'vehicle_vectors', '_id': 's4d9YpkB6y9MJBiPJIYA', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 70, '_primary_term': 1}
+
+[MQTT] Received 28 
+428 not found in local cache, querying database
+
+
+28 from 4 not found in database
+
+Inserting as new id: 428
+
+Inserted document, vehicle id 428: {'_index': 'vehicle_vectors', '_id': '2Id9YpkB6y9MJBiPJYbe', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 71, '_primary_term': 1}
+
+[MQTT] Received 28 
+428 found in local cache
+
+
+Inserted document, vehicle id 428: {'_index': 'vehicle_vectors', '_id': '64d9YpkB6y9MJBiPKYaG', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 72, '_primary_term': 1}
+
+[MQTT] Received 27 
+427 found in local cache
+
+
+[MQTT] Received 28 
+
+Inserted document, vehicle id 427: {'_index': 'vehicle_vectors', '_id': '_od9YpkB6y9MJBiPLoY2', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 73, '_primary_term': 1}
+
+428 found in local cache
+
+Inserted document, vehicle id 428: {'_index': 'vehicle_vectors', '_id': 'EYd9YpkB6y9MJBiPLodE', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 74, '_primary_term': 1}
+
+[MQTT] Received 27 
+427 found in local cache
+
+
+Inserted document, vehicle id 427: {'_index': 'vehicle_vectors', '_id': 'JId9YpkB6y9MJBiPMofP', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 75, '_primary_term': 1}
+
+[MQTT] Received 27 
+427 found in local cache
+
+
+Inserted document, vehicle id 427: {'_index': 'vehicle_vectors', '_id': 'N4d9YpkB6y9MJBiPNYeb', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 76, '_primary_term': 1}
+
+[MQTT] Received 27 
+427 found in local cache
+
+
+Inserted document, vehicle id 427: {'_index': 'vehicle_vectors', '_id': 'Sod9YpkB6y9MJBiPNoeO', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 77, '_primary_term': 1}
+
+[MQTT] Received 27 
+427 found in local cache
+
+
+Inserted document, vehicle id 427: {'_index': 'vehicle_vectors', '_id': 'XYd9YpkB6y9MJBiPN4d0', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 78, '_primary_term': 1}
+
+[MQTT] Received 27 
+427 found in local cache
+
+
+Inserted document, vehicle id 427: {'_index': 'vehicle_vectors', '_id': 'cId9YpkB6y9MJBiPOYda', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 79, '_primary_term': 1}
+
+[MQTT] Received 27 
+427 found in local cache
+
+
+Inserted document, vehicle id 427: {'_index': 'vehicle_vectors', '_id': 'g4d9YpkB6y9MJBiPOodF', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 80, '_primary_term': 1}
+
+[MQTT] Received 31 
+431 not found in local cache, querying database
+
+
+31 from 4 not found in database
+
+Inserting as new id: 431
+
+Inserted document, vehicle id 431: {'_index': 'vehicle_vectors', '_id': 'qId9YpkB6y9MJBiPVYeM', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 81, '_primary_term': 1}
+
+[MQTT] Received 29 
+429 not found in local cache, querying database
+
+
+29 from 4 not found in database
+
+Inserting as new id: 429
+
+Inserted document, vehicle id 429: {'_index': 'vehicle_vectors', '_id': 'u4d9YpkB6y9MJBiPV4du', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 82, '_primary_term': 1}
+
+[MQTT] Received 31 
+431 found in local cache
+
+
+Inserted document, vehicle id 431: {'_index': 'vehicle_vectors', '_id': 'zod9YpkB6y9MJBiPWIdN', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 83, '_primary_term': 1}
+
+[MQTT] Received 31 
+431 found in local cache
+
+
+Inserted document, vehicle id 431: {'_index': 'vehicle_vectors', '_id': '4Yd9YpkB6y9MJBiPXIf_', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 84, '_primary_term': 1}
+
+[MQTT] Received 29 
+429 found in local cache
+
+
+Inserted document, vehicle id 429: {'_index': 'vehicle_vectors', '_id': '9Id9YpkB6y9MJBiPXYfm', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 85, '_primary_term': 1}
+
+[MQTT] Received 29 
+429 found in local cache
+
+
+Inserted document, vehicle id 429: {'_index': 'vehicle_vectors', '_id': 'B4d9YpkB6y9MJBiPYYiR', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 86, '_primary_term': 1}
+
+[MQTT] Received 29 
+429 found in local cache
+
+
+Inserted document, vehicle id 429: {'_index': 'vehicle_vectors', '_id': 'God9YpkB6y9MJBiPZ4gn', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 87, '_primary_term': 1}
+
+[MQTT] Received 30 
+430 not found in local cache, querying database
+
+
+30 from 4 not found in database
+
+Inserting as new id: 430
+
+Inserted document, vehicle id 430: {'_index': 'vehicle_vectors', '_id': 'LYd9YpkB6y9MJBiPaIgt', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 88, '_primary_term': 1}
+
+[MQTT] Received 29 
+429 found in local cache
+
+
+Inserted document, vehicle id 429: {'_index': 'vehicle_vectors', '_id': 'QId9YpkB6y9MJBiPaYj3', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 89, '_primary_term': 1}
+
+[MQTT] Received 29 
+429 found in local cache
+
+
+Inserted document, vehicle id 429: {'_index': 'vehicle_vectors', '_id': 'ZYd9YpkB6y9MJBiPa4jW', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 90, '_primary_term': 1}
+
+[MQTT] Received 29 
+429 found in local cache
+
+
+Inserted document, vehicle id 429: {'_index': 'vehicle_vectors', '_id': 'eId9YpkB6y9MJBiPbYi1', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 91, '_primary_term': 1}
+
+[MQTT] Received 29 
+429 found in local cache
+
+
+Inserted document, vehicle id 429: {'_index': 'vehicle_vectors', '_id': 'i4d9YpkB6y9MJBiPb4iT', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 92, '_primary_term': 1}
+
+[MQTT] Received 30 
+430 found in local cache
+
+
+Inserted document, vehicle id 430: {'_index': 'vehicle_vectors', '_id': 'nod9YpkB6y9MJBiPdYgi', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 93, '_primary_term': 1}
+
+[MQTT] Received 32 
+432 not found in local cache, querying database
+
+
+32 from 4 not found in database
+
+Inserting as new id: 432
+
+Inserted document, vehicle id 432: {'_index': 'vehicle_vectors', '_id': 'sYd9YpkB6y9MJBiPdogG', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 94, '_primary_term': 1}
+
+[MQTT] Received 30 
+430 found in local cache
+
+
+[MQTT] Received 32 
+
+Inserted document, vehicle id 430: {'_index': 'vehicle_vectors', '_id': 'xId9YpkB6y9MJBiPeoix', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 95, '_primary_term': 1}
+
+432 found in local cache
+
+Inserted document, vehicle id 432: {'_index': 'vehicle_vectors', '_id': '14d9YpkB6y9MJBiPeojA', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 96, '_primary_term': 1}
+
+[MQTT] Received 36 
+436 not found in local cache, querying database
+
+
+36 from 4 not found in database
+
+Inserting as new id: 436
+
+Inserted document, vehicle id 436: {'_index': 'vehicle_vectors', '_id': '6od9YpkB6y9MJBiPfYiG', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 97, '_primary_term': 1}
+
+[MQTT] Received 30 
+430 found in local cache
+
+
+[MQTT] Received 36 
+
+Inserted document, vehicle id 430: {'_index': 'vehicle_vectors', '_id': '_Yd9YpkB6y9MJBiPfohy', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 98, '_primary_term': 1}
+
+436 found in local cache
+
+Inserted document, vehicle id 436: {'_index': 'vehicle_vectors', '_id': 'EId9YpkB6y9MJBiPfomA', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 99, '_primary_term': 1}
+
+[MQTT] Received 32 
+432 found in local cache
+
+
+Inserted document, vehicle id 432: {'_index': 'vehicle_vectors', '_id': 'NYd9YpkB6y9MJBiPf4l3', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 100, '_primary_term': 1}
+
+[MQTT] Received 36 
+436 found in local cache
+
+
+Inserted document, vehicle id 436: {'_index': 'vehicle_vectors', '_id': 'SId9YpkB6y9MJBiPgIlU', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 101, '_primary_term': 1}
+
+[MQTT] Received 30 
+430 found in local cache
+
+
+Inserted document, vehicle id 430: {'_index': 'vehicle_vectors', '_id': 'W4d9YpkB6y9MJBiPgYlI', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 102, '_primary_term': 1}
+
+[MQTT] Received 30 
+430 found in local cache
+
+
+[MQTT] Received 36 
+
+Inserted document, vehicle id 430: {'_index': 'vehicle_vectors', '_id': 'bod9YpkB6y9MJBiPgok7', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 103, '_primary_term': 1}
+
+436 found in local cache
+
+Inserted document, vehicle id 436: {'_index': 'vehicle_vectors', '_id': 'gYd9YpkB6y9MJBiPgolI', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 104, '_primary_term': 1}
+
+[MQTT] Received 30 
+430 found in local cache
+
+
+Inserted document, vehicle id 430: {'_index': 'vehicle_vectors', '_id': 'lId9YpkB6y9MJBiPg4k4', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 105, '_primary_term': 1}
+
+[MQTT] Received 32 
+432 found in local cache
+
+
+Inserted document, vehicle id 432: {'_index': 'vehicle_vectors', '_id': 'p4d9YpkB6y9MJBiPhIkl', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 106, '_primary_term': 1}
+
+[MQTT] Received 30 
+430 found in local cache
+
+
+[MQTT] Received 33 
+
+[MQTT] Received 36 
+
+Inserted document, vehicle id 430: {'_index': 'vehicle_vectors', '_id': 'uod9YpkB6y9MJBiPhYkW', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 107, '_primary_term': 1}
+
+433 not found in local cache, querying database
+
+33 from 4 not found in database
+
+Inserting as new id: 433
+
+Inserted document, vehicle id 433: {'_index': 'vehicle_vectors', '_id': 'zYd9YpkB6y9MJBiPhYko', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 108, '_primary_term': 1}
+
+436 found in local cache
+
+Inserted document, vehicle id 436: {'_index': 'vehicle_vectors', '_id': '8od9YpkB6y9MJBiPhYlF', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 109, '_primary_term': 1}
+
+[MQTT] Received 33 
+433 found in local cache
+
+
+Inserted document, vehicle id 433: {'_index': 'vehicle_vectors', '_id': 'BYd9YpkB6y9MJBiPh4oD', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 110, '_primary_term': 1}
+
+[MQTT] Received 32 
+432 found in local cache
+
+
+Inserted document, vehicle id 432: {'_index': 'vehicle_vectors', '_id': 'GId9YpkB6y9MJBiPh4rw', '_version': 1, 'result': 'created', 'forced_refresh': True, '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 111, '_primary_term': 1}
+
+[MQTT] Received 32 
+432 found in local cache
